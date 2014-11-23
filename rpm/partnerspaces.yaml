@@ -1,0 +1,17 @@
+Name: partnerspaces
+Summary: A set of partner-spaces for SailfishOS
+Version: 0.0
+Release: 1
+Group: Qt/Qt
+URL: https://github.com/sailfishos-patches/partnerspaces
+License: TODO
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  This package contains a set of partnerspaces.
+Configure: none
+Builder: none
+PkgConfigBR: []
+PkgBR: []
+Files:
+- '%{_datadir}/partnerspacemanager/partnerspaces'
